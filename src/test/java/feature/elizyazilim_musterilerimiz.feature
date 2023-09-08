@@ -3,7 +3,7 @@ Feature: Menü Kontrolü
   Scenario: Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And hakkımızda butonuna tıkla.
+    And müşterilerimiz butonuna tıkla.
     And  tıkla.
     Then açılan sayfadaki kontrol et.
 
@@ -12,7 +12,7 @@ Feature: Menü Kontrolü
   Scenario:  Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And  hizmetlerimiz butonuna tıkla.
+    And  müşterilerimiz butonuna tıkla.
     And web sunucu hizmetlerine tıkla.
     Then açılan sayfanın kayıt olma sayfası olduğunu kontrol et.
 
@@ -20,7 +20,7 @@ Feature: Menü Kontrolü
   Scenario: Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And işler butonuna tıkla.
+    And müşterilerimiz butonuna tıkla.
     And hemen kayıt ol butonuna tıkla.
     Then açılan sayfanın kayıt olma sayfası olduğunu kontrol et.
 
@@ -37,7 +37,7 @@ Feature: Menü Kontrolü
   Scenario: Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And blog butonuna tıkla.
+    And müşterilerimiz butonuna tıkla.
     And ücretsiz fiyat teklifi butonuna tıkla.
     Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.
 
@@ -45,13 +45,13 @@ Feature: Menü Kontrolü
   Scenario: Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And katalog butonuna tıkla.
+    And müşterilerimiz butonuna tıkla.
     And ücretsiz fiyat teklifi butonuna tıkla.
     Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.
 
   Scenario: Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And iletişim butonuna tıkla.
+    And müşterilerimiz butonuna tıkla.
     And ücretsiz fiyat teklifi butonuna tıkla.
     Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.

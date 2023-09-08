@@ -1,57 +1,50 @@
-Feature: Menü Kontrolü
+Feature: Hizmetlerimiz Menü Kontrolü
 
-  Scenario: Fonksiyonunun Doğrulanması
+  Scenario: Hizmetlerimiz Menüsünde Yer Alan Web Sunucu Hizmetleri Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And hakkımızda butonuna tıkla.
-    And  tıkla.
-    Then açılan sayfadaki kontrol et.
+    And hizmetlerimiz butonuna tıkla.
+    And web sunucu hizmetlerine tıkla.
+    Then açılan sayfanın web sunucu hizmetlerine ait olduğunu kontrol et.
 
 
 
-  Scenario:  Fonksiyonunun Doğrulanması
+  Scenario: Hizmetlerimiz Menüsünde Yer Alan Bakım Destek Hizmetleri Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
     And  hizmetlerimiz butonuna tıkla.
-    And web sunucu hizmetlerine tıkla.
-    Then açılan sayfanın kayıt olma sayfası olduğunu kontrol et.
+    And bakım destek hizmetlerine tıkla.
+    Then açılan sayfanın bakım destek hizmetlerine ait olduğunu kontrol et.
 
 
-  Scenario: Fonksiyonunun Doğrulanması
+  Scenario: Hizmetlerimiz Menüsünde Yer Alan Dijital Pazarlama Hizmetleri Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And işler butonuna tıkla.
-    And hemen kayıt ol butonuna tıkla.
-    Then açılan sayfanın kayıt olma sayfası olduğunu kontrol et.
+    And hizmetlerimiz butonuna tıkla.
+    And dijital pazarlama hizmetlerine tıkla.
+    Then açılan sayfanın dijital pazarlama hizmetlerine ait olduğunu kontrol et.
 
 
-  Scenario: Fonksiyonunun Doğrulanması
+  Scenario: Hizmetlerimiz Menüsünde Yer Alan Grafik Tasarım Hizmetleri Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And müşterilerimiz butonuna tıkla.
-    And ücretsiz emağazanı aç butonuna tıkla.
-    Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.
+    And hizmetlerimiz butonuna tıkla.
+    And grafik tasarım hizmetlerine tıkla.
+    Then açılan sayfanın grafik tasarım hizmetlerine ait olduğunu kontrol et.
 
 
 
-  Scenario: Fonksiyonunun Doğrulanması
+  Scenario: Hizmetlerimiz Menüsünde Yer Alan Web Yazılım Hizmetleri Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And blog butonuna tıkla.
-    And ücretsiz fiyat teklifi butonuna tıkla.
-    Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.
+    And hizmetlerimiz butonuna tıkla.
+    And web yazılım hizmetlerine tıkla.
+    Then açılan sayfanın web yazılım hizmetlerine ait olduğunu kontrol et.
 
 
-  Scenario: Fonksiyonunun Doğrulanması
+  Scenario: Hizmetlerimiz Menüsünde Yer Alan Web Tasarım Hizmetleri Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And katalog butonuna tıkla.
-    And ücretsiz fiyat teklifi butonuna tıkla.
-    Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.
-
-  Scenario: Fonksiyonunun Doğrulanması
-    Given eliz yazılım websitesine eriş.
-    When menüye tıkla.
-    And iletişim butonuna tıkla.
-    And ücretsiz fiyat teklifi butonuna tıkla.
-    Then açılan sayfanın hesap oluşturma sayfası olduğunu kontrol et.
+    And hizmetlerimiz butonuna tıkla.
+    And web tasarım hizmetlerine tıkla.
+    Then açılan sayfanın web tasarım hizmetlerine ait olduğunu kontrol et.
