@@ -12,7 +12,7 @@ Feature: Menü Kontrolü
   Scenario:  Fonksiyonunun Doğrulanması
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
-    And  hizmetlerimiz butonuna tıkla.
+    And  hakkımızda butonuna tıkla.
     And web sunucu hizmetlerine tıkla.
     Then açılan sayfanın kayıt olma sayfası olduğunu kontrol et.
 
