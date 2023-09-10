@@ -26,26 +26,32 @@ import utilities.MyMethods;
         @FindBy(xpath = "//li[@class='clearfix']//a[@href='https://www.elizyazilim.com/musterilerimiz']")
         private WebElement musterilerimiz;
 
-        @FindBy(css = "#ctl05_rptQuestions_tbQuestion1_4")
-        private WebElement mesajiniz;
+        @FindBy(xpath = "//img[@alt='Web Sunucu']")
+        private WebElement webSunucuHizmetleri;
 
-        @FindBy(xpath = "#ctl05_txtCaptha")
-        private WebElement resimDogrulama;
+        @FindBy(xpath = "//img[@alt='Bakım & Destek']")
+        private WebElement bakimDestekHizmetleri;
 
-        @FindBy(xpath = "//a[@title='Hemen Kayıt Ol']")
-        private WebElement kayitOlButonu;
+        @FindBy(xpath = "//img[@alt='Dijital Pazarlama']")
+        private WebElement dijitalPazarlamaHizmetleri;
 
-        @FindBy(xpath = "//button[@type='submit']")
-        private WebElement kayitOlSayfasiDogrulama;
+        @FindBy(xpath = "//img[@alt='Grafik Tasarım']")
+        private WebElement grafikTasarimHizmetleri;
 
-        @FindBy(xpath = "//a[@title='Ücretsiz, E-Mağazanı Aç']")
-        private WebElement ucretsizEmagazaniAc;
+        @FindBy(xpath = "//img[@alt='Web Yazılım']")
+        private WebElement webYazilimHizmetleri;
 
-        @FindBy(xpath = "//a[@title='Ücretsiz, Fiyat Teklifi Hazırla']")
-        private WebElement ucretsizFiyatTeklifi;
+        @FindBy(xpath = "//img[@alt='Web Tasarım']")
+        private WebElement webTasarimHizmetleri;
 
-        @FindBy(xpath = "//b[normalize-space()='Hemen Ücretsiz']")
-        private WebElement ucretsizEmagazaniAcDogrulama;
+        @FindBy(xpath = "//div[contains(@class,'tp-bannertimer')]")
+        private WebElement sagaKaydir;
+
+        @FindBy(xpath = "(//div[contains(@class,'noSwipe')])[1]")
+        private WebElement solaKaydir;
+
+        (//a[@class='btn transparent'][contains(text(),'İNCELE')])[1]
+
         public WebElement getMenuButonu() {
             return menuButonu;
         }
@@ -65,31 +71,37 @@ import utilities.MyMethods;
             return musterilerimiz;
         }
 
-        public WebElement getMesajiniz() {
-            return mesajiniz;
+        public WebElement getWebSunucuHizmetleri() {
+            return webSunucuHizmetleri;
         }
 
-        public WebElement getResimDogrulama() {
-            return resimDogrulama;
+        public WebElement getBakimDestekHizmetleria() {
+            return bakimDestekHizmetleri;
         }
 
-        public WebElement getKayitOlButonu(){
-            return kayitOlButonu;
+        public WebElement getDijitalPazarlamaHizmetleri(){
+            return dijitalPazarlamaHizmetleri;
         }
 
-        public WebElement getKayitOlSayfasiDogrulama(){
-            return kayitOlSayfasiDogrulama;
+        public WebElement getGrafikTasarimHizmetleri(){
+            return grafikTasarimHizmetleri;
         }
 
-        public WebElement getUcretsizEmagazaniAc(){
-            return ucretsizEmagazaniAc;
+        public WebElement getWebYazilimHizmetleri(){
+            return webYazilimHizmetleri;
         }
 
-        public WebElement getUcretsizFiyatTeklifi(){
-            return ucretsizFiyatTeklifi;
+        public WebElement getWebTasarimHizmetleri(){
+            return webTasarimHizmetleri;
         }
 
-        public WebElement getUcretsizEmagazaniAcDogrulama(){
-            return ucretsizEmagazaniAcDogrulama;
+        public WebElement getSagaKaydir(){
+            return sagaKaydir;
         }
+
+        public WebElement getSolaKaydir(){
+            return solaKaydir;
+        }
+
+
     }
