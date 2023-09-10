@@ -12,19 +12,19 @@ import utilities.MyMethods;
             PageFactory.initElements(DriverClass.getDriver(), this);
         }
 
-        @FindBy(xpath = "//div[@id='footer_menu']//a[contains(text(),'İletişim')]")
-        private WebElement iletisimButonu;
+        @FindBy(xpath = "//li[normalize-space()='MENU']")
+        private WebElement menuButonu;
 
-        @FindBy(css= "#ctl05_rptQuestions_tbQuestion_0")
-        private WebElement adinizSoyadiniz;
+        @FindBy(xpath = "//a[normalize-space()='HAKKIMIZDA']")
+        private WebElement hakkimizda;
 
-        @FindBy(css = "#ctl05_rptQuestions_tbQuestion_1")
-        private WebElement telefonNumaraniz;
+        @FindBy(xpath = "//a[@href='https://www.elizyazilim.com/hizmetlerimiz']")
+        private WebElement hizmetlerimiz;
 
-        @FindBy(css = "#ctl05_rptQuestions_tbQuestion_2")
-        private WebElement emailAdresiniz;
-        @FindBy(css = "#ctl05_rptQuestions_cblQuestion_3_1_3")
-        private WebElement muhasebe;
+        @FindBy(xpath = "//li[@class='clearfix']//a[@href='https://www.elizyazilim.com/son-projelerimiz']")
+        private WebElement islerimiz;
+        @FindBy(xpath = "//li[@class='clearfix']//a[@href='https://www.elizyazilim.com/musterilerimiz']")
+        private WebElement musterilerimiz;
 
         @FindBy(css = "#ctl05_rptQuestions_tbQuestion1_4")
         private WebElement mesajiniz;
@@ -46,23 +46,23 @@ import utilities.MyMethods;
 
         @FindBy(xpath = "//b[normalize-space()='Hemen Ücretsiz']")
         private WebElement ucretsizEmagazaniAcDogrulama;
-        public WebElement getIletisimButonu() {
-            return iletisimButonu;
+        public WebElement getMenuButonu() {
+            return menuButonu;
         }
 
-        public WebElement getAdinizSoyadiniz() {
-            return adinizSoyadiniz;
+        public WebElement getHakkimizda() {
+            return hakkimizda;
         }
 
-        public WebElement getTelefonNumaraniz(){
-            return telefonNumaraniz;
+        public WebElement getHizmetlerimiz(){
+            return hizmetlerimiz;
         }
-        public WebElement getEmailAdresiniz(){
-            return emailAdresiniz;
+        public WebElement getIslerimiz(){
+            return islerimiz;
         }
 
-        public WebElement getMuhasebe(){
-            return muhasebe;
+        public WebElement getMusterilerimiz(){
+            return musterilerimiz;
         }
 
         public WebElement getMesajiniz() {
