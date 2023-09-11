@@ -1,6 +1,7 @@
 package step_definitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 
 public class islerimiz {
     @And("işler butonuna tıkla.")
@@ -90,5 +91,111 @@ public class islerimiz {
 
     @And("ayen elektrik tıkla.")
     public void ayenElektrikTıkla() {
+        
+    }
+
+    @And("artun temizlik tıkla.")
+    public void artunTemizlikTıkla() {
+        
+    }
+
+    @And("emek inşaat tıkla.")
+    public void emekInşaatTıkla() {
+        
+    }
+
+
+    @Then("açılan sayfanın cn med sayfası olduğunu kontrol et.")
+    public void açılanSayfanınCnMedSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın marmara çimento sayfası olduğunu kontrol et.")
+    public void açılanSayfanınMarmaraÇimentoSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın bütad sayfası olduğunu kontrol et.")
+    public void açılanSayfanınBütadSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın ntm elektrik sayfası olduğunu kontrol et.")
+    public void açılanSayfanınNtmElektrikSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın cey yatırım sayfası olduğunu kontrol et.")
+    public void açılanSayfanınCeyYatırımSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın ceylan group sayfası olduğunu kontrol et.")
+    public void açılanSayfanınCeylanGroupSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın şantes incinerator sayfası olduğunu kontrol et.")
+    public void açılanSayfanınŞantesIncineratorSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın toptan kozmetik sayfası olduğunu kontrol et.")
+    public void açılanSayfanınToptanKozmetikSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın ulusoy elektrik sayfası olduğunu kontrol et.")
+    public void açılanSayfanınUlusoyElektrikSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın polsan sayfası olduğunu kontrol et.")
+    public void açılanSayfanınPolsanSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın ata tenis sayfası olduğunu kontrol et.")
+    public void açılanSayfanınAtaTenisSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın türk silahlı kuvvetleri sayfası olduğunu kontrol et.")
+    public void açılanSayfanınTürkSilahlıKuvvetleriSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın gintek sayfası olduğunu kontrol et.")
+    public void açılanSayfanınGintekSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın seza inşaat sayfası olduğunu kontrol et.")
+    public void açılanSayfanınSezaInşaatSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın mutlu tohum sayfası olduğunu kontrol et.")
+    public void açılanSayfanınMutluTohumSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın söğüt inşaat sayfası olduğunu kontrol et.")
+    public void açılanSayfanınSöğütInşaatSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın ayen elektrik sayfası olduğunu kontrol et.")
+    public void açılanSayfanınAyenElektrikSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın artun temizlik sayfası olduğunu kontrol et.")
+    public void açılanSayfanınArtunTemizlikSayfasıOlduğunuKontrolEt() {
+        
+    }
+
+    @Then("açılan sayfanın emek inşaat sayfası olduğunu kontrol et.")
+    public void açılanSayfanınEmekInşaatSayfasıOlduğunuKontrolEt() {
     }
 }
