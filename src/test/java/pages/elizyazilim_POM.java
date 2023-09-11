@@ -26,6 +26,9 @@ import utilities.MyMethods;
         @FindBy(xpath = "//li[@class='clearfix']//a[@href='https://www.elizyazilim.com/musterilerimiz']")
         private WebElement musterilerimiz;
 
+        @FindBy(xpath = "//a[normalize-space()='BLOG']")
+        private WebElement blog;
+
         @FindBy(xpath = "//img[@alt='Web Sunucu']")
         private WebElement webSunucuHizmetleri;
 
@@ -50,7 +53,7 @@ import utilities.MyMethods;
         @FindBy(xpath = "(//div[contains(@class,'noSwipe')])[1]")
         private WebElement solaKaydir;
 
-        (//a[@class='btn transparent'][contains(text(),'İNCELE')])[1]
+       // (//a[@class='btn transparent'][contains(text(),'İNCELE')])[1]
 
         public WebElement getMenuButonu() {
             return menuButonu;
@@ -69,6 +72,10 @@ import utilities.MyMethods;
 
         public WebElement getMusterilerimiz(){
             return musterilerimiz;
+        }
+
+        public WebElement getBlog(){
+            return blog;
         }
 
         public WebElement getWebSunucuHizmetleri() {
