@@ -3,6 +3,9 @@ package step_definitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
+
+
+    new POM elizyazilim_POM()
 public class blog {
     @And("blog butonuna tıkla.")
     public void blogButonunaTıkla() {
