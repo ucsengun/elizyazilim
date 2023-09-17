@@ -15,12 +15,12 @@ public class hakkimizda {
 
     @And("sağa kaydırma butonuna tıkla.")
     public void sağaKaydırmaButonunaTıkla() {
-        
+        ey.clickMethod(ey.getSagaKaydir());
     }
 
     @Then("sağa kaydırıldığını kontrol et.")
     public void sağaKaydırıldığınıKontrolEt() {
-        
+        ey.clickMethod(ey.getSolaKaydir());
     }
 
     @And("sola kaydırma butonuna tıkla.")

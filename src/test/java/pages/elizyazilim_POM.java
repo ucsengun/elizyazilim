@@ -53,6 +53,26 @@ import utilities.MyMethods;
         @FindBy(xpath = "(//div[contains(@class,'noSwipe')])[1]")
         private WebElement solaKaydir;
 
+
+        @FindBy(xpath = "//h1[normalize-space()='WEB SUNUCU']")
+        private WebElement webSunucuDogrulama;
+
+        @FindBy(xpath = "//h1[normalize-space()='BAKIM DESTEK']")
+        private WebElement bakimDestekDogrulama;
+
+        @FindBy(xpath = "//h1[contains(text(),'DİJİTAL PAZARLAMA')]")
+        private WebElement dijitalPazarlamaDogrulama;
+
+        @FindBy(xpath = "//h1[contains(text(),'GRAFİK TASARIM NEDİR?')]")
+        private WebElement GrafikTasarimDogrulama;
+
+        @FindBy(xpath = "//h1[contains(text(),'WEB YAZILIM VE SİTE MİMARİSİ')]")
+        private WebElement webYazilimHizmetleriDogrulama;
+
+        @FindBy(xpath = "//h1[contains(text(),'ANKARA WEB TASARIM HİZMETİ')]")
+        private WebElement webTasarimHizmetleriDogrulama;
+
+
        // (//a[@class='btn transparent'][contains(text(),'İNCELE')])[1]
 
         public WebElement getMenuButonu() {
@@ -110,5 +130,16 @@ import utilities.MyMethods;
             return solaKaydir;
         }
 
+        public WebElement getWebSunucuDogrulama() { return webSunucuDogrulama;}
+
+        public WebElement getBakimDestekDogrulama() { return bakimDestekDogrulama;}
+
+        public WebElement getDijitalPazarlamaDogrulama() { return dijitalPazarlamaDogrulama;}
+
+        public WebElement getGrafikTasarimDogrulama() { return grafikTasarimDogrulama;}
+
+        public WebElement getWebYazilimHizmetleriDogrulama() { return webYazilimHizmetleriDogrulama;}
+
+        public WebElement getWebTasarimHizmetleriDogrulama() { return webTasarimHizmetleriDogrulama;}
 
     }

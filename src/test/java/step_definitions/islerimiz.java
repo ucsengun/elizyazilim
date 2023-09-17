@@ -10,7 +10,7 @@ public class islerimiz {
 
     @And("işler butonuna tıkla.")
     public void işlerButonunaTıkla() {
-        
+        ey.clickMethod(ey.getIslerimiz());
     }
 
     @And("cn med'e tıkla.")
