@@ -64,7 +64,7 @@ import utilities.MyMethods;
         private WebElement dijitalPazarlamaDogrulama;
 
         @FindBy(xpath = "//h1[contains(text(),'GRAFİK TASARIM NEDİR?')]")
-        private WebElement GrafikTasarimDogrulama;
+        private WebElement grafikTasarimDogrulama;
 
         @FindBy(xpath = "//h1[contains(text(),'WEB YAZILIM VE SİTE MİMARİSİ')]")
         private WebElement webYazilimHizmetleriDogrulama;
@@ -72,7 +72,11 @@ import utilities.MyMethods;
         @FindBy(xpath = "//h1[contains(text(),'ANKARA WEB TASARIM HİZMETİ')]")
         private WebElement webTasarimHizmetleriDogrulama;
 
+        @FindBy(xpath = "//a[@href='http://elizyazilim.com/blog/kurumsal-kimlik-tasarimi/'][contains(text(),'Devamını Oku')]")
+        private WebElement devaminiOku;
 
+        @FindBy(xpath = "//p[contains(text(),', net bir kimlik oluşturmak için firmaların ayırt ')]")
+        private WebElement kurumsalKimlikTasarimiDogrulama;
        // (//a[@class='btn transparent'][contains(text(),'İNCELE')])[1]
 
         public WebElement getMenuButonu() {
@@ -142,4 +146,7 @@ import utilities.MyMethods;
 
         public WebElement getWebTasarimHizmetleriDogrulama() { return webTasarimHizmetleriDogrulama;}
 
+        public WebElement getDevaminiOku() { return devaminiOku;}
+
+        public WebElement getKurumsalKimlikTasarimiDogrulama() { return kurumsalKimlikTasarimiDogrulama;}
     }

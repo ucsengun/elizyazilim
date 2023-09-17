@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 import pages.elizyazilim_POM;
 import utilities.DriverClass;
 
@@ -59,30 +60,31 @@ public class hizmetlerimiz {
 
     @Then("açılan sayfanın web sunucu hizmetlerine ait olduğunu kontrol et.")
     public void açılanSayfanınWebSunucuHizmetlerineAitOlduğunuKontrolEt() {
-       // ey.
+        Assert.assertTrue(ey.getWebSunucuDogrulama().isDisplayed());
     }
 
     @Then("açılan sayfanın bakım destek hizmetlerine ait olduğunu kontrol et.")
     public void açılanSayfanınBakımDestekHizmetlerineAitOlduğunuKontrolEt() {
-        
+        Assert.assertTrue(ey.getBakimDestekDogrulama().isDisplayed());
     }
 
     @Then("açılan sayfanın dijital pazarlama hizmetlerine ait olduğunu kontrol et.")
     public void açılanSayfanınDijitalPazarlamaHizmetlerineAitOlduğunuKontrolEt() {
-        
+        Assert.assertTrue(ey.getDijitalPazarlamaDogrulama().isDisplayed());
     }
 
     @Then("açılan sayfanın grafik tasarım hizmetlerine ait olduğunu kontrol et.")
     public void açılanSayfanınGrafikTasarımHizmetlerineAitOlduğunuKontrolEt() {
-        
+        Assert.assertTrue(ey.getGrafikTasarimDogrulama().isDisplayed());
     }
 
     @Then("açılan sayfanın web yazılım hizmetlerine ait olduğunu kontrol et.")
     public void açılanSayfanınWebYazılımHizmetlerineAitOlduğunuKontrolEt() {
-        
+        Assert.assertTrue(ey.getWebYazilimHizmetleriDogrulama().isDisplayed());
     }
 
     @Then("açılan sayfanın web tasarım hizmetlerine ait olduğunu kontrol et.")
     public void açılanSayfanınWebTasarımHizmetlerineAitOlduğunuKontrolEt() {
+        Assert.assertTrue(ey.getWebTasarimHizmetleriDogrulama().isDisplayed());
     }
 }
