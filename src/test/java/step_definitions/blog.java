@@ -2,14 +2,16 @@ package step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import pages.elizyazilim_POM;
 
 
-
-    new POM elizyazilim_POM()
 public class blog {
+
+    elizyazilim_POM ey = new elizyazilim_POM();
+
     @And("blog butonuna tıkla.")
     public void blogButonunaTıkla() {
-        
+        ey.clickMethod(ey.getBlog());
     }
 
     @And("kurumsal kimlik başlığı altındaki devamını oku butonuna tıkla.")

@@ -2,8 +2,12 @@ package step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import pages.elizyazilim_POM;
 
 public class islerimiz {
+
+    elizyazilim_POM ey = new elizyazilim_POM();
+
     @And("işler butonuna tıkla.")
     public void işlerButonunaTıkla() {
         
