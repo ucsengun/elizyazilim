@@ -52,7 +52,7 @@ import utilities.MyMethods;
         @FindBy(xpath = "//div[@class='tp-rightarrow tparrows edge-style-gray noSwipe']")
         private WebElement sagaKaydir;
 
-        @FindBy(xpath = "(//div[contains(@class,'noSwipe')])[1]")
+        @FindBy(xpath = "//div[@class='tp-leftarrow tparrows edge-style-gray noSwipe']")
         private WebElement solaKaydir;
 
 

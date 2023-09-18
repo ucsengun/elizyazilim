@@ -17,6 +17,7 @@ public class blog {
 
     @And("kurumsal kimlik başlığı altındaki devamını oku butonuna tıkla.")
     public void kurumsalKimlikBaşlığıAltındakiDevamınıOkuButonunaTıkla() {
+
         ey.clickMethod(ey.getDevaminiOku());
     }
 
