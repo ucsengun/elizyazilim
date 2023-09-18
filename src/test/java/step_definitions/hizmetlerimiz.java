@@ -16,6 +16,7 @@ public class hizmetlerimiz {
     @Given("eliz yazılım websitesine eriş.")
     public void elizYazılımWebsitesineEriş() {
         DriverClass.getDriver().get("https://elizyazilim.com/");
+        ey.clickMethod(ey.getCereziKabulEt());
     }
 
     @When("menüye tıkla.")

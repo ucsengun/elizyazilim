@@ -13,22 +13,15 @@ public class hakkimizda {
         ey.clickMethod(ey.getHakkimizda());
     }
 
-    @And("sağa kaydırma butonuna tıkla.")
+    @Then("sağa kaydırma butonuna tıkla.")
     public void sağaKaydırmaButonunaTıkla() {
         ey.clickMethod(ey.getSagaKaydir());
     }
+    
 
-    @Then("sağa kaydırıldığını kontrol et.")
-    public void sağaKaydırıldığınıKontrolEt() {
-        ey.clickMethod(ey.getSolaKaydir());
-    }
-
-    @And("sola kaydırma butonuna tıkla.")
+    @Then("sola kaydırma butonuna tıkla.")
     public void solaKaydırmaButonunaTıkla() {
-        
-    }
+        ey.clickMethod(ey.getSolaKaydir());
 
-    @Then("sola kaydırıldığını kontrol kontrol et.")
-    public void solaKaydırıldığınıKontrolKontrolEt() {
     }
 }

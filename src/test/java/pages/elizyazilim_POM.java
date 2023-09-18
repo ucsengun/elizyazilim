@@ -12,6 +12,8 @@ import utilities.MyMethods;
             PageFactory.initElements(DriverClass.getDriver(), this);
         }
 
+        @FindBy(xpath = "//span[@class='acceptAndClose']")
+        private WebElement cereziKabulEt;
         @FindBy(xpath = "//li[normalize-space()='MENU']")
         private WebElement menuButonu;
 
@@ -47,7 +49,7 @@ import utilities.MyMethods;
         @FindBy(xpath = "//img[@alt='Web Tasarım']")
         private WebElement webTasarimHizmetleri;
 
-        @FindBy(xpath = "//div[contains(@class,'tp-bannertimer')]")
+        @FindBy(xpath = "//div[@class='tp-rightarrow tparrows edge-style-gray noSwipe']")
         private WebElement sagaKaydir;
 
         @FindBy(xpath = "(//div[contains(@class,'noSwipe')])[1]")
@@ -72,13 +74,16 @@ import utilities.MyMethods;
         @FindBy(xpath = "//h1[contains(text(),'ANKARA WEB TASARIM HİZMETİ')]")
         private WebElement webTasarimHizmetleriDogrulama;
 
-        @FindBy(xpath = "//a[@href='http://elizyazilim.com/blog/kurumsal-kimlik-tasarimi/'][contains(text(),'Devamını Oku')]")
+        @FindBy(xpath = "//a[@title='Kalıcı Link: Kurumsal Kimlik Tasarımı']")
         private WebElement devaminiOku;
 
         @FindBy(xpath = "//p[contains(text(),', net bir kimlik oluşturmak için firmaların ayırt ')]")
         private WebElement kurumsalKimlikTasarimiDogrulama;
        // (//a[@class='btn transparent'][contains(text(),'İNCELE')])[1]
 
+        public WebElement getCereziKabulEt() {
+            return cereziKabulEt;
+        }
         public WebElement getMenuButonu() {
             return menuButonu;
         }

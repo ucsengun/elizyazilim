@@ -2,11 +2,14 @@ package step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import pages.elizyazilim_Islerimiz_POM;
 import pages.elizyazilim_POM;
 
 public class islerimiz {
 
     elizyazilim_POM ey = new elizyazilim_POM();
+
+    elizyazilim_Islerimiz_POM eyo = new elizyazilim_Islerimiz_POM();
 
     @And("işler butonuna tıkla.")
     public void işlerButonunaTıkla() {
@@ -15,7 +18,7 @@ public class islerimiz {
 
     @And("cn med'e tıkla.")
     public void cnMedETıkla() {
-        
+        eyo.clickMethod(eyo.getCnmedIncele());
     }
 
     @And("marmara çimento tıkla.")

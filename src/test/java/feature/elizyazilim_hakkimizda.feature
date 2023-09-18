@@ -4,8 +4,7 @@ Feature: Menü Kontrolü
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
     And hakkımızda butonuna tıkla.
-    And sağa kaydırma butonuna tıkla.
-    Then sağa kaydırıldığını kontrol et.
+    Then sağa kaydırma butonuna tıkla.
 
 
 
@@ -13,7 +12,6 @@ Feature: Menü Kontrolü
     Given eliz yazılım websitesine eriş.
     When menüye tıkla.
     And hakkımızda butonuna tıkla.
-    And sola kaydırma butonuna tıkla.
-    Then sola kaydırıldığını kontrol kontrol et.
+    Then sola kaydırma butonuna tıkla.
 
 
