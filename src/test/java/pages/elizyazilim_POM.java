@@ -52,7 +52,7 @@ import utilities.MyMethods;
         @FindBy(xpath = "//div[@id='rev_slider_2_forcefullwidth']/div[@class='rev_slider_wrapper']/div[@id='rev_slider_2']/div[4]")
         private WebElement sagaKaydir;
 
-        @FindBy(xpath = "//div[@class='tp-leftarrow']")
+        @FindBy(xpath = "//div[@id='rev_slider_2_forcefullwidth']/div[contains(@class,'rev_slider_wrapper')]/div[@id='rev_slider_2']/div[3]")
         private WebElement solaKaydir;
 
 
