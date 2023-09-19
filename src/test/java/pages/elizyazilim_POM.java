@@ -74,7 +74,7 @@ import utilities.MyMethods;
         @FindBy(xpath = "//h1[contains(text(),'ANKARA WEB TASARIM HİZMETİ')]")
         private WebElement webTasarimHizmetleriDogrulama;
 
-        @FindBy(xpath = "//a[@href='http://elizyazilim.com/blog/kurumsal-kimlik-tasarimi/'][contains(text(),'Devamını Oku')]")
+        @FindBy(css = "article[class='post-entry post-entry-type-standard post-entry-11727 post-loop-1 post-parity-odd single-big with-slider post-11727 post type-post status-publish format-standard has-post-thumbnail hentry category-logo-ve-kurumsal-kimlik category-tasarim tag-ankara-katalog-tasarimi tag-ankara-reklam-ajansi tag-ankara-web-tasarim tag-antetli-kagit tag-eliz-yazilim-tasarim tag-kartvizit tag-kurumsal-kimlik-tasarimi tag-logo-tasarimi tag-web-sitesi-tasarimi tag-zarf'] a[class='more-link']")
         private WebElement devaminiOku;
 
         @FindBy(xpath = "//p[contains(text(),', net bir kimlik oluşturmak için firmaların ayırt ')]")
