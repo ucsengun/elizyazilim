@@ -2,13 +2,16 @@ package step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import pages.elizyazilim_POM;
+import utilities.DriverClass;
 
 
 public class blog {
 
     elizyazilim_POM ey = new elizyazilim_POM();
+
 
     @And("blog butonuna tıkla.")
     public void blogButonunaTıkla() {
@@ -17,7 +20,6 @@ public class blog {
 
     @And("kurumsal kimlik başlığı altındaki devamını oku butonuna tıkla.")
     public void kurumsalKimlikBaşlığıAltındakiDevamınıOkuButonunaTıkla() {
-
         ey.clickMethod(ey.getDevaminiOku());
     }
 

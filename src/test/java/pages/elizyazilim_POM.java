@@ -49,10 +49,10 @@ import utilities.MyMethods;
         @FindBy(xpath = "//img[@alt='Web Tasarım']")
         private WebElement webTasarimHizmetleri;
 
-        @FindBy(xpath = "//div[@class='tp-rightarrow tparrows edge-style-gray noSwipe']")
+        @FindBy(xpath = "//div[@id='rev_slider_2_forcefullwidth']/div[@class='rev_slider_wrapper']/div[@id='rev_slider_2']/div[4]")
         private WebElement sagaKaydir;
 
-        @FindBy(xpath = "//div[@class='tp-leftarrow tparrows edge-style-gray noSwipe']")
+        @FindBy(xpath = "//div[@class='tp-leftarrow']")
         private WebElement solaKaydir;
 
 
@@ -74,7 +74,7 @@ import utilities.MyMethods;
         @FindBy(xpath = "//h1[contains(text(),'ANKARA WEB TASARIM HİZMETİ')]")
         private WebElement webTasarimHizmetleriDogrulama;
 
-        @FindBy(xpath = "//a[@title='Kalıcı Link: Kurumsal Kimlik Tasarımı']")
+        @FindBy(xpath = "//a[@href='http://elizyazilim.com/blog/kurumsal-kimlik-tasarimi/'][contains(text(),'Devamını Oku')]")
         private WebElement devaminiOku;
 
         @FindBy(xpath = "//p[contains(text(),', net bir kimlik oluşturmak için firmaların ayırt ')]")
