@@ -12,7 +12,7 @@ public class hakkimizda {
 
     private JavascriptExecutor jsExecutor;
 
-
+    //hakkimizda sayfasi ile ilgili fonksiyonlar
     @And("hakkımızda butonuna tıkla.")
     public void hakkımızdaButonunaTıkla() {
         ey.clickMethod(ey.getHakkimizda());
